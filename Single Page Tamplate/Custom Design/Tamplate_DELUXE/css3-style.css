@@ -1,0 +1,255 @@
+body {
+	background: #17181A;
+	margin: 0;
+	padding: 0;
+}
+div#background {
+	-position: relative;
+}
+div#background img {
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+}
+div#right-content {
+	position: absolute;
+	-border: 2px solid white;
+	width: 820px;
+    top: 0px;
+    left: 523px;
+	max-height: auto;
+	background: url(images/right_bg.png) repeat;
+}
+
+
+					/*header*/
+	
+div#header{
+	clear: both;
+	border-bottom: 1px groove white;
+	height: 77px;
+}
+div.header-left {
+	width: 50%;
+	margin-left: 52px;
+}
+div.header-left h1{
+	color: white;
+    font-size: 50px;
+}
+div.header-left h5{
+	text-transform: uppercase;
+    color: white;
+    margin: -37px;
+    margin-left: 0px;
+	word-spacing: 6px;
+}
+div.header-right {
+	float: right;
+	color: #FFF;
+}
+.in-width {
+	width: 102px;
+}
+
+					/*navigation*/
+div#navigation{
+	clear: both;
+	width: 100%;
+	display: block;
+}
+div.nav-left {
+	display: inline-block;
+	width: 45%;
+	color: silver;
+}
+div.nav-left ul{
+	display: block;
+}
+div.nav-left ul li{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	padding: 9px;
+}
+div.nav-left ul li a{
+	text-decoration: none;
+	-text-transform: uppercase;
+	font-variant: small-caps;
+	color: silver;
+}
+div.nav-left ul li a:hover {
+	color: white;
+}
+div.nav-right {
+	display: inline-block;
+	color: silver;
+	float: right;
+	margin-right: 5px;
+    line-height: 8px;
+}
+.nav-right p{
+	font-size: 12px;
+}
+p.nav-p1 {
+	margin-left: 76px;
+}
+p.nav-p2 a{
+	text-decoration: none;
+	color: silver;
+}
+
+
+						/*mian-content*/
+div#mian-content{
+	clear: both;
+	width: 100%;
+	-display: block;
+}
+
+div.catagory{
+	float: left;
+	width: 25%;
+	-border: 1px solid yellow;
+	margin-left: 6px;
+}
+div.cat-top {
+	line-height: 24px;
+}
+div.cat-top ol {
+	list-style: none;
+}
+div.cat-top ol li {
+}
+.cat-top-li{
+	background: -webkit-linear-gradient(bottom right, black 68%, #5d4545);
+}
+div.cat-top ol li a{
+	text-decoration: none;
+	color: silver;
+	font-variant: small-caps;
+	padding: 5px;
+}
+div.cat-top ol li a:hover {
+	background: -webkit-linear-gradient(top left, black 68%, #5d4545);
+	-background-color: #17181A;
+	color: #FFF;
+}
+div.cat-bottom {
+	width: 74%;
+	color: silver;
+    margin-left: 43px;
+	height: 90px;
+	padding: 1px;
+	background: -webkit-linear-gradient(bottom right , #222325 21%, black);
+	}
+div.cat-bottom h3 {   
+    margin-left: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+div.cat-bottom h4 {   
+	font-size: 10px;
+    margin-left: 12px;
+    margin-top: -9px;
+}
+div.cat-bottom p {
+	word-spacing: 52px;
+	margin-left: 12px;
+    font-size: 12px;
+}
+p#cat-bot-p{
+	word-spacing: 75px;
+    margin-top: -8px;
+}
+.cat-in1 {
+	padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-right: -4px;
+    margin-left: 43px;
+    width: 25%;
+    background: #3e3c3c;
+    color: white;
+    cursor: pointer;
+	border: none;
+}
+.cat-in2 {
+	border: none;
+	padding: 0px;
+    text-align: center;
+    width: 50%;
+    margin-left: 0px;
+    background: #abaaab;
+    color: black;
+    cursor: pointer;
+	outline: none;
+}
+
+
+
+div.gallery{
+	width: 73%;
+	float: left;
+	-border: 1px solid white;
+}
+.gal-top img, .gal-bottom img {
+	_filter: sepia(100%);
+	_webkit-filter: sepia(100%);
+	-webkit-filter: drop-shadow(-2px 0px 5px silver);
+	filter: drop-shadow(-2px 0px 5px silver);
+	opacity: 0.4;
+}
+.gal-top img:hover, .gal-bottom img:hover {
+	opacity: 1.0;
+	transition: .7s ease;
+}
+
+
+					/*footer*/
+div#footer {
+	clear: both;
+	border-top: 1px solid white;
+	width: 100%;
+	height: auto;
+}
+div.fot-left {
+	float: left;
+	color: silver;
+	font-variant: small-caps;
+	line-height: 12px;
+}
+div.fot-left ul {
+	list-style: none;
+	display: table;
+	margin-top: 7px;
+}
+div.fot-left ul li{
+	padding: 5px;
+	display: inline-table;
+}
+div.fot-left ul li a {
+	text-decoration: none;
+	color: gray;
+}
+div.fot-left ul li a:hover {
+	text-shadow: -6px -1px 11px #000000;
+	color: silver;
+}
+div.fot-left p {
+	margin-bottom: 0px;
+    margin-top: -17px;
+    margin-left: 45px;
+	font-size: 12px;
+    text-align: center;
+}
+div.fot-right {
+	float: right;
+    color: silver;
+    font-variant: small-caps;
+    font-size: 18px;
+    margin-top: 9px;
+}
+div.fot-right option {
+	font-variant: small-caps;
+}
