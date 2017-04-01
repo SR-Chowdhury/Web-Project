@@ -1,0 +1,541 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Reset Code end*/
+
+/*Custom CSS start*/
+
+body{
+	background: #333 url(images/bg.png) repeat;
+	color: #000;
+	font-family: Georgia;
+}
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    margin-top: 29px;
+	background: #fff;
+	box-shadow: 0px 0px 30px 5px #000;
+}
+
+/*Header Start*/
+
+header{    
+	position: relative;
+    height: 125px;
+    border-bottom: 1px solid #333;
+	clear: both;
+	background: url(images/stamp.png) no-repeat top right;
+}
+.header-left {
+	float: left;
+    width: 300px;
+    height: 125px;
+    border-right: 1px solid #333;
+}
+.header-left a{}
+.header-left img{
+	display: block;
+    position: absolute;
+    top: -21px;
+    left: -54px;
+}
+.header-right {
+	width: 699px;
+    float: left;
+    height: 125px;
+    font-family: arial;	
+}
+.header-right h2{
+	font-size: 52px;
+    text-transform: uppercase;
+    padding: 51px 0px 0px 41px;
+    text-shadow: 4px 4px 4px #999;	
+}
+.header-right  h4{
+    text-align: right;
+    margin-top: -4px;
+    text-transform: uppercase;
+    margin-right: 22px;
+}
+
+/*Header end*/
+
+/*main-content Start*/
+#main-content {
+	clear: both;
+    overflow: hidden; 
+}
+
+/*sidebar Start*/
+
+#sidebar {
+    float: left;
+    width: 300px;	
+}
+#sidebar ul, .news {
+    margin-right: 22px;
+}
+#sidebar ul {
+    margin-top: 105px;	
+}
+#sidebar ul li{
+	display: block;
+    padding: 11px;
+    margin-top: 2px;
+    padding-left: 24px;
+}
+#sidebar ul li a{
+	color: #fff;
+}
+#sidebar ul li:nth-child(1){
+    background-color: #647484;
+}
+#sidebar ul li:nth-child(2){
+    background-color: #728c8c;
+}
+#sidebar ul li:nth-child(3){
+    background-color: #768c72;
+}
+#sidebar ul li:nth-child(4){
+    background-color: #909673;
+}
+#sidebar ul li:nth-child(5){
+    background-color: #7c8840;
+}
+#sidebar ul li:hover {
+	background: #417a37;	
+}
+#sidebar ul em{
+}
+.news {
+    margin-top: 30px;
+    padding-left: 24px;
+    background: url(images/sidebar-shadow.png) top right no-repeat;
+    padding-right: 18px;
+}
+.news h2{
+    font-size: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 19px 0px 23px 0px;
+	color: #909673;
+}
+.widget {
+}
+.widget h3{
+	color:#fff;
+    text-transform: uppercase;
+    text-align: right;
+    background: #909673;
+    padding: 5px;
+    margin-left: -24px;	
+}
+.widget h4{
+    font-size: 19px;
+    padding: 15px 0px;	
+}
+.widget a{
+	color: black;
+}
+.widget a:hover {
+	text-decoration: underline;
+}
+.widget p{
+    padding-bottom: 37px;	
+}
+.news:first-of-type p{
+	padding-bottom: 12px;
+}
+.news:last-of-type .widget h3{
+    background-color: #ad7601;
+}
+.news:last-of-type h2{
+	color: #ad7601;
+}
+/*sidebar end*/
+
+/*right-content Start*/
+
+#right-content{
+	width: 699px;
+    float: left;
+}
+#right-content p{
+    padding: 49px 7px 0px 4px;
+    line-height: 25px;
+    letter-spacing: 0.9px;	
+    font-family: Georgia;
+    font-size: 12px;	
+}
+#right-content a{}
+#right-content img{
+    display: block;
+    margin-left: 188px;		
+}
+#right-content h2{
+    font-size: 40px;
+    color: #647484;
+    margin-bottom: 20px;	
+}
+.single-post {
+	clear: both;
+}
+.delete {
+	margin-bottom: 0px;
+}
+.single-post a{}
+.single-post h3{
+	padding: 12px 0px 12px 222px;
+    background: #6a7988;
+    font-variant: small-caps;
+    font-size: 32px;
+    color: #fff;
+    margin-right: -1px;	
+}
+.single-post-left {
+    width: 250px;
+    float: left;	
+    position: relative;	
+}
+.single-post-left img{
+    position: absolute;
+    left: -182px;
+    top: -67px;	
+}
+.single-post-left h4{     
+	margin-top: 94px;
+    width: 124px;
+    background: #6a7988;
+    padding: 7px 15px 7px 15px;
+    text-transform: uppercase;
+    margin-left: 18px;
+    color: #fff;
+    box-shadow: 0px 0px 5px 2px #717f8c;
+    border: 4px solid #fff;
+    border-radius: 1px;
+}
+.single-post-right {
+    float: right;
+    width: 448px;	
+}
+.single-post-right .pp{
+	padding: 10px 5px 25px 10px !important;
+    line-height: 26px !important;
+    letter-spacing: 0.9px !important;	
+}
+
+.offer {
+	clear: both;
+}
+.offer p{
+	font-size: 18px;
+	margin-left: 125px;
+	padding: 0px !important;
+	border: 5px dashed #333;
+	width: 350px;
+	text-align: center;
+	font-variant: small-caps;
+	padding: 15px 25px 15px 25px !important;
+}
+/*right-content end*/
+
+/*main-content end*/
+
+
+/*footer Start*/
+
+footer {
+    clear: both;
+    color: #fff;
+    padding-top: 16px;
+    width: 1000px;
+    margin: auto;
+}
+footer p:first-of-type{
+    float: left;	
+}
+footer p:last-of-type{
+    float: right;	
+}
+
+/*footer end*/
+
+
+
+
+/* About Widget Corp Start*/
+
+#right-content-about{
+	width: 699px;
+    float: left;	
+}
+#right-content-about h1{
+    text-align: center;
+	background: #333;
+    color: #fff;
+    width: 344px;
+    padding: 10px 17px;
+    font-size: 32px;
+    text-transform: uppercase;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-left: 330px;
+    margin-top: 52px;
+    margin-bottom: 26px;	
+}
+#right-content-about .first-p{
+    line-height: 25.5px;
+    letter-spacing: 1.2px;	
+}
+#right-content-about .first-p:first-letter{
+	font-size: 80px;
+	float: left;
+	padding: 0px 8px 0px 0px;
+	line-height: 70px;
+}
+#right-content-about .second-p{
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    margin-bottom: 88px;	
+}
+#right-content-about ul{
+    padding: 15px;
+	display: block;
+    margin-top: 16px;	
+}
+#right-content-about ul li{
+	list-style: disc;
+    padding-left: 16px;
+    margin-bottom: 12px;	
+}
+
+/* About Widget Corp End*/
+
+
+
+/* Contact Start*/
+
+#right-content-about{}
+#right-content-about .blog-content{
+	margin: 15px 11px;
+    border-bottom: 1px solid #ddd;	
+}
+.blog-content h3{
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 16px;
+    line-height: 29px;	
+}
+.blog-content h3:hover {
+	text-decoration: underline;
+}
+.blog-content p{
+    -padding: 5px 12px 13px;
+    line-height: 19px;
+    font-size: 14px	
+}
+.blog-content h5{
+    color: #333;
+    margin-top: 13px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    border-bottom: 1px dashed #333;
+    width: 187px;
+    margin-bottom: 11px;	
+}
+.blog-content a{
+	color: #333;
+}
+.blog-content code{
+    font-style: oblique;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    padding: 2px 5px 2px 5px;
+    font-weight: bold;
+}
+#right-content-about{}
+
+/* Contact End*/
+
+/* Single Start*/
+.main-content-single{
+	margin-top: 6px;
+}
+.single-header{
+    text-align: center;
+    font-size: 45px;
+    padding: 50px 0px;
+    letter-spacing: 1.8px;
+    line-height: 82px;
+    text-shadow: 1px 1px 2px rgba(23, 10, 10, 0.75);
+    text-transform: uppercase;	
+    background: #333 url(images/bg.png) repeat;
+    color: #fff;	
+}
+.main-p{
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+    background: #000;
+    padding: 8px;
+    margin-bottom: 8px;	
+	text-align: right;
+    font-weight: bold;	
+}
+.main-p em{
+    padding-left: 183px;
+    padding-right: 36px;	
+}
+	
+.main-content-single #sidebar ul{
+	margin-top: 0px;
+}
+#right-content-single{
+	width: 699px;
+    float: left;	
+}
+#right-content-single .first-p{
+    line-height: 25.5px;
+    letter-spacing: 1.2px;	
+}
+#right-content-single .first-p:first-letter{
+	font-size: 80px;
+	float: left;
+	padding: 0px 8px 0px 0px;
+	line-height: 70px;
+}
+#right-content-single .second-p{
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    margin-bottom: 88px;	
+}
+#right-content-single ul{
+    padding: 15px;
+	display: block;
+    margin-top: 16px;	
+}
+#right-content-single ul li{
+	list-style: disc;
+    padding-left: 16px;
+    margin-bottom: 12px;	
+}
+
+/* Single End*/
+
+/* Buy Start*/
+
+#right-content-buy{
+	width: 699px;
+    float: left;	
+}
+#right-content-buy h1{
+    text-align: center;
+	background: #333;
+    color: #fff;
+    width: 336px;
+    padding: 10px 17px;
+    font-size: 32px;
+    text-transform: uppercase;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-left: 330px;
+    margin-top: 52px;
+    margin-bottom: 26px;	
+}
+#right-content-buy .buy{
+    height: 350px;
+    background: url(images/sprocketizer-large.png) no-repeat top center;
+    position: relative;	
+}
+.buy .buy-price{
+    background: rgba(219, 224, 229, .7);
+    width: 181px;
+    padding: 7px 0px 9px 9px;
+    display: block;
+    position: absolute;
+    top: 114px;
+    right: -1px;
+}
+.buy .buy-price ul{
+    padding-left: 10px;	
+}
+.buy .buy-price ul li{
+    list-style: none;
+    font-size: 17px;
+    line-height: 27px;
+    background: #000;
+    margin: 5px 0px;
+    padding-left: 12px;
+    color: #fff;	
+}
+.buy .buy-price ul li:nth-child(even){
+    background: rgba(219, 224, 229, .7);
+	color: #000;
+}
+.buy .buy-price button{
+    width: 175px;
+    padding: 7px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background: -webkit-linear-gradient( top, #7c8894, #516375);
+    border: 6px solid #fff;	
+	box-shadow: 0px 0px 5px 2px #717f8c;
+}
+#right-content-buy p{
+    margin-top: 49px;
+    line-height: 23px;
+    letter-spacing: 0px;
+}
+
+
+/* Buy End*/
+
+
+
+
