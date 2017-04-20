@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Explore SuperStar World!">
+	<meta name="keywords" content="Explore, SuperStar, Star, Super, World">
+	<meta name="author" content="5H1H4N">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Explore SuperStar World</title>
+	<link rel="stylesheet" href="style.css" media="all" />	
+</head>
+<body id="top">
+	
+	
+	<!--Navigation Bar Start-->
+		<div id="navigation-bar"  class="wrapper">		
+			<a href="index.html"><img src="images/logo.png" alt="Images" width="145" height="45" /></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html" class="active">Contact</a></li>
+			</ul>
+	
+	</div>
+	<!--Navigation Bar end-->
+	
+	<!--banner Start-->
+		<div id="banner">
+			<h1>Contact / <code>BizzCode</code></h1>
+		</div>
+	<!--banner end-->
+	
+	
+	<!--Map Start-->
+	<div id="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d115810.15080264541!2d91.86942189999999!3d24.895688900000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1492255405321" frameborder="0"  ></iframe>
+	</div>
+	<!--Map end-->
+	
+	
+	
+	<!--Form Start-->
+		<div id="form" class="wrapper">
+			<div class="form-left">
+				<ul>
+					<li><img src="images/location2.png" alt="img" height="62" width="50"/></li>
+					<li>Address</li>
+					<li>8901 Marmora Raod,</li>
+					<li>Glasgow, D04 89GR</li>
+				</ul>			
+				<ul>
+					<li><img src="images/email.png" alt="img" height="62" width="50"/></li>
+					<li>Address</li>
+					<li>8901 Marmora Raod,</li>
+					<li>Glasgow, D04 89GR</li>
+				</ul>				
+				<ul>
+					<li><img src="images/mobile.png" alt="img" height="62" width="50"/></li>
+					<li>Address</li>
+					<li>8901 Marmora Raod,</li>
+					<li>Glasgow, D04 89GR</li>
+				</ul>
+			</div>
+			
+			<div class="form-right">
+				<h1>Leave a Message</h1>
+				<form action="#">
+					<div class="one"><input type="text" placeholder="subject" name="sub" required/></div>
+					<div class="two-three">	
+						<div class="two"><input type="text" placeholder="Name" name="name" required/></div>
+						<div class="three"><input type="email" placeholder="Email" name="email" required/></div>
+					</div>	
+					<div class="four"><textarea placeholder="Write Here" rows="19" name="message" required></textarea></div>
+					<div class="five"><input type="submit" value="SEND"/></div>
+				</form>
+			</div>
+		</div>
+		
+	<!--Form end-->
+	
+<!--Footer Top Start-->
+		<div id="footer-top" class="wrapper">
+			<div class="footer-top-body">
+				<div class="footer-top-content">
+					<h1>Company</h1>
+					<ul class="footer-ul">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Return & Refund</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</div>
+				<div class="footer-top-content">
+					<h1>Related Links</h1>
+					<ul class="footer-ul">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Return & Refund</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</div>		
+				<div class="footer-top-content">
+					<h1>Customer</h1>
+					<ul class="footer-ul">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Return & Refund</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</div>
+				<div class="footer-top-content">
+					<h1>User Account</h1>
+					<ul class="footer-ul">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Return & Refund</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</div>
+			</div>
+			
+	<!--Back to top Start-->
+		<a class="scroollTop" href="#top" onclick="scrollToTop();return false">Go to Top &uarr;</a>
+	<!--Back to top end-->
+		</div>
+	<!--Footer Top end-->
+	
+	<!--Footer Bottom Start-->
+		<div id="footer-bottom">
+			<div class="wrapper">
+				<div class="footer-bottom-left">
+					<h2>&copy; All Rights Reserved by BizzCode-2017.</h2>
+				</div>
+				<div class="footer-bottom-right">
+					<ul class="footer-bottom-ul">
+						<li><a href="#"><img src="images/footer-skype.png" alt="img" height="30" width="30"/></a></li>
+						<li><a href="#"><img src="images/footer-fb.png" alt="img" height="30" width="30"/></a></li>
+						<li><a href="#"><img src="images/footer-in.png" alt="img"  height="30" width="30"/></a></li>
+						<li><a href="#"><img src="images/footer-twitter.png" alt="img"  height="30" width="30"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--Footer Bottom end-->
+	
+	<!--JQuery Plugins-->
+	<script src="js/jquery.scrollTop.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#map').click(function() {
+				$('#map iframe').css("pointer-events","auto");
+			});
+			$('#map').mouseLeave(function() {
+				$('#map iframe').css("pointer-events","none");
+			});
+		});
+	</script>
+
+</body>
+</html>
